@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:nepali_info/widget/date_converter.dart';
 import '/screens/about_page.dart';
 
 void main() {
@@ -14,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.red,
       ),
       home: AboutPage(),
     );
