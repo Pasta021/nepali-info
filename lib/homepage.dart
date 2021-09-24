@@ -50,7 +50,7 @@ class _HomepageState extends State<Homepage> {
           //   }
           // },
           onPressed: () {
-            SfPdfViewer.asset(widget._pages[]);
+            SfPdfViewer.asset(widget._pages[index]);
           },
           child: const Text('Next'),
         ),
